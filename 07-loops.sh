@@ -6,5 +6,5 @@ done
 count=1
 while [ $count -le 10 ]; do
     echo "the value of count is $count"
-    $count++
+    {($count++)}
 done
