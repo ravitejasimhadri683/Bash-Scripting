@@ -2,8 +2,8 @@
 echo "This script demo for function"
 stat(){
     echo "Hello this is the 1st statement inside the function"
-    echo "Today's date is $date"
-    echo "Server uptime is $(uptime)"
+    echo "Today's date is $(date)"
+   # echo "Server uptime is $(uptime)"
 }
 stat
 
