@@ -4,7 +4,7 @@ for i in 1 2 3 4 5; do
 done
 
 coun=1
-while [ $count -le 10]; do
+while [ $count -le 10 ]; do
     echo "the value of count is $count"
     $count++
 done
