@@ -4,10 +4,13 @@ name="Ravi"
 job="IT"
 team=$1
 place=$2
-echo "printing variable 1 + $name"
-echo "printing variable 2 + $job"
-echo "printing arugument value 1 + $team"
-echo "printing arugument value 2 + $place"
-echo "$?"
-echo "$#"
+country=$3
+echo "printing Name: $name"
+echo "printing Job: $job"
+echo "printing Team Name as argument: $team"
+echo "printing working place as agument: $place"
+echo "$0"  #print script name
+echo "$?"  #print last execution stattus, if it is 0 means success, others means fail
+echo "$#"  #number of arugument passed
+echo "$@"  #Number of arugment used 
 
